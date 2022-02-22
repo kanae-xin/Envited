@@ -1,0 +1,110 @@
+.homeContainer{
+    min-height: 100vh;
+    position: relative;
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navi{
+  position: absolute;
+  width: 340px;
+  height: 30px;
+  left: 14px;
+  top: 24px;
+}
+
+.bigTitle{
+  position: absolute;
+  width: 335px;
+  height: 60px;
+  left: 20px;
+  top: 120px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 30px;
+  /* or 94% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.32px;
+
+  color: #FFFFFF;
+}
+
+.smallTitle{
+  position: absolute;
+  width: 295px;
+  height: 40px;
+  left: 40px;
+  top: 213px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.32px;
+
+  color: #FFFFFF;
+}
+
+.create{
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  left: 77px;
+  top: 284px;
+  width: 200px;
+  height: 49px;
+}
+
+.createImage{
+  width: 200px;
+  height: 49px;
+  z-index: 3;
+}
+
+.leftProduct{
+  position: absolute;
+  width: 144px;
+  height: 256px;
+  left: 6px;
+  top: 355px;
+  z-index: 2;
+}
+
+.midProduct{
+  position: absolute;
+  width: 254px;
+  height: 363px;
+  left: 60px;
+  top: 300px;
+  z-index: 2;
+}
+
+.rightProduct{
+  position: absolute;
+  width: 124px;
+  height: 256px;
+  left: 232px;
+  top: 355px;
+  z-index: 2;
+}
+
+.iconBg{
+  position: absolute;
+  width: 379px;
+  height: 309px;
+  left: 7px;
+  top: 349px;
+  z-index: 1;
+}

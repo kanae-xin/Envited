@@ -1,0 +1,34 @@
+.createContainer{
+    min-height: 100vh;
+    position: relative;
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.info{
+  position: relative;
+  top: 80px;
+
+}
+
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+label{
+  color: rgb(242, 242, 242);
+  left: 80px;
+}
+
+input{
+  margin: 10px;
+}
+
+.submit{
+  width: 70px;
+  hight: 50px;
+}
